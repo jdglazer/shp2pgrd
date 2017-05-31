@@ -18,7 +18,7 @@ if [ -d $install_location ]; then
     
     mkdir -p $install_location$parent_folder
     install_location1=$install_location$parent_folder$b
-    mkdir -p $install_location
+    mkdir -p $install_location1
     
     echo "Copying files..."
     
